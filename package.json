@@ -1,0 +1,26 @@
+{
+  "name": "dec-int",
+  "version": "1.0.0",
+  "description": "Get a base-10 integer from a NumericString or Number.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://brycehanscomb@github.com/brycehanscomb/dec-int.git"
+  },
+  "keywords": [
+    "dec",
+    "int",
+    "decimal",
+    "number",
+    "parseInt"
+  ],
+  "author": "Bryce Hanscomb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brycehanscomb/dec-int/issues"
+  },
+  "homepage": "https://github.com/brycehanscomb/dec-int#readme"
+}
