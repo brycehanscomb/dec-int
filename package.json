@@ -1,6 +1,6 @@
 {
   "name": "dec-int",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Get a base-10 integer from a NumericString or Number.",
   "main": "index.js",
   "scripts": {
@@ -22,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/brycehanscomb/dec-int/issues"
   },
-  "homepage": "https://github.com/brycehanscomb/dec-int#readme"
+  "homepage": "https://github.com/brycehanscomb/dec-int#readme",
+  "dependencies": {
+    "is-negative-zero": "^2.0.0",
+    "is-not-set": "^1.0.0"
+  }
 }

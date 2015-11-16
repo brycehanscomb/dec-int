@@ -30,4 +30,12 @@ However, these are examples of what's not a NumericString:
 "e"
 ```
 
+Note: any input that is equivalent to negative-zero (except negative-zero itself) will evaluate to 
+positive-zero. For example:
+
+```js
+decInt(0); // => 0
+decInt(-0); // => -0
+decInt('-0'); // => 0
+decInt('-0.5'); // => 0
 ```
