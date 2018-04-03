@@ -1,6 +1,6 @@
 {
   "name": "dec-int",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Get a base-10 integer from a NumericString or Number.",
   "homepage": "https://github.com/brycehanscomb/dec-int",
   "issues": "https://github.com/brycehanscomb/dec-int/issues",
@@ -29,7 +29,9 @@
     "ts-node": "^5.0.1",
     "typescript": "^2.8.1"
   },
-  "files": ["dist/"],
+  "files": [
+    "dist/"
+  ],
   "scripts": {
     "build": "tsc",
     "test": "mocha -r ts-node/register src/**/*.spec.ts",
